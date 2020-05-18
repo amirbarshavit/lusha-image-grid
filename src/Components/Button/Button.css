@@ -1,12 +1,13 @@
-.App {
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
 .button-warper {
   text-align: center;
 }
 .button-warper-right {
   text-align: right;
   margin: 40px;
+}
+.button {
+  border-radius: 4px;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
 }

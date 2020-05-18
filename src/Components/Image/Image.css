@@ -1,0 +1,20 @@
+.image {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  /* text-align: center; */
+  margin: 10px;
+  border-radius: 5px;
+  max-width: 200px;
+}
+.description {
+  word-break: break-all;
+  height: 40px;
+  overflow-y: auto;
+}
+
+.image-additional-data {
+  padding: 10px;
+}
+.likes {
+  margin-bottom: 10px;
+}
