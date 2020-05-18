@@ -38,3 +38,7 @@
     grid-template-columns: repeat(5, 1fr);
   }
 }
+.button-warper-right {
+  text-align: right;
+  margin: 40px;
+}
