@@ -4,8 +4,8 @@ This  was bootstrapped with [Create React App](https://github.com/facebook/creat
 
 ## Desgin
 
-     1)its not a pixel prefect (its far from it) I saw the UI screenshots to late.
-     2) in row view mode, in order to be responsive to screen width, only in 1400px (or bigger ) width the 5 images will dislpay in one row if the screen width is less then 1400px the galerry grid will adjust itself
+1)its not a pixel prefect (its far from it) I saw the UI screenshots to late.
+2) in row view mode, in order to be responsive to screen width, only in 1400px (or bigger ) width the 5 images will dislpay in one row if the screen width is less then 1400px the galerry grid will adjust itself
 
 ### Browsers support:
 
