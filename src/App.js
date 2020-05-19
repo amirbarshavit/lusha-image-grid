@@ -26,7 +26,9 @@ function App() {
     <div className="App">
       <Gallery images={displayImages} />
       <div className="button-warper">
-        <Button onClick={onRefreshButtonClick}>Refresh</Button>
+        <Button testId="refresh-btn" onClick={onRefreshButtonClick}>
+          Refresh
+        </Button>
       </div>
     </div>
   );

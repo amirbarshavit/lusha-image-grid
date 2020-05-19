@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Button.css";
 function Button(props) {
-  const { onClick, className, disabled } = props;
+  const { onClick, className, disabled, testId } = props;
 
   const onButtonClick = () => {
     onClick && onClick();
@@ -13,6 +13,7 @@ function Button(props) {
       className={`button ${className}`}
       disabled={disabled}
       onClick={onButtonClick}
+      data-testid={testId}
     >
       {props.children}
     </button>

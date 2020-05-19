@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-.gallery-container.grid {
+.gallery-container.column {
   display: grid;
   grid-template-columns: auto;
 }
