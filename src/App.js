@@ -12,13 +12,18 @@ const getRandomImages = (images = [], numberOfImages = 5) => {
 function App() {
   const [images] = useApiImages();
   const [displayImages, setDisplayImages] = useState();
+
   const onRefreshButtonClick = () => {
+    changeDisplayImages();
+  };
+
+  const changeDisplayImages = () => {
     const chosenImages = getRandomImages(images, 5);
     setDisplayImages(chosenImages);
   };
 
   useEffect(() => {
-    setDisplayImages(images.slice(0, 5));
+    changeDisplayImages();
   }, [images]);
 
   return (
