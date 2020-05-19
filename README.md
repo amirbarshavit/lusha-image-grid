@@ -38,5 +38,5 @@ maybe I should do it more generic and pass the URL and the headers as params, bu
 It's the first time that I'm using hooks I hope that I use it well.
 
 ## Test
-I test the toggle view buttons behavior and that the buttons are rendered
+I test the toggle view buttons behavior and that the buttons are rendered.
 I should add a test to check that the images are rendered and that the refresh logic is working as we expected
