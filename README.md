@@ -9,9 +9,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  the component layout
  ## Gallery.js
  its a component that responsable for the gallery display and view modes only, this component know how to work with an array    of images and display it.
- the Gallery componenet not modify the data (today we display 5 images but if we diced that we want to display and other number of images we just need to pass the images array as a props)
+ the Gallery componenet dont do anything with  the data just display it (today we display 5 images but if we diced that we want to display and other number of images we just need to pass the images array as a props)
  
  we can use this component to display images form any source that we want 
+## Button.js and Button.css
+its a simple button component the conatin the button logic and uicomp
+this component was made in order to prevent code duplication 
 ## Available Scripts
 
 In the project directory, you can run:
