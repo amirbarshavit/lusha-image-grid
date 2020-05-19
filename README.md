@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## My Assumptions
- ####browsers support 
- chrome only
+ #### browsers support: 
+ test on chrome only
 ## Available Scripts
 
 In the project directory, you can run:
