@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## My Assumptions
- #### Browsers support: 
-      tests on chrome only
+ ### Browsers support: 
+      test on chrome
  ## App.js
  its a container component that responsable for fetching the images from the APi (with getImagesHook) and modify it.
  the component is also hanlding all the refresh button behoviers.
