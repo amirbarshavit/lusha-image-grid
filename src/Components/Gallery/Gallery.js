@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types";
+
 import Image from "../Image/Image";
 import Button from "../Button/Button";
 import "./Gallery.css";
@@ -45,5 +47,13 @@ function Gallery(props) {
     </div>
   );
 }
+
+Gallery.propTypes = {
+  images: PropTypes.array,
+};
+
+Gallery.defaultProps = {
+  images: [],
+};
 
 export default Gallery;

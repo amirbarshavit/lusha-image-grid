@@ -2,16 +2,15 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Gallery from "./Components/Gallery/Gallery";
 import Button from "./Components/Button/Button";
+import useApiImages from "./Hooks/FetchImages";
 
-// import images from "./mock.json";
-import { useImages } from "./Hooks/fetchImages";
 const getRandomImages = (images = [], numberOfImages = 5) => {
   const shuffled = images.sort(() => 0.5 - Math.random());
   return shuffled.slice(0, numberOfImages);
 };
 
 function App() {
-  const [images] = useImages();
+  const [images] = useApiImages();
   const [displayImages, setDisplayImages] = useState();
   const onRefreshButtonClick = () => {
     const chosenImages = getRandomImages(images, 5);

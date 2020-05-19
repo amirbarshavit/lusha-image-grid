@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
-function useImages() {
+export default function useApiImages() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -21,5 +21,3 @@ function useImages() {
 
   return [data, setData];
 }
-
-export { useImages };

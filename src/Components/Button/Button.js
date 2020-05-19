@@ -24,12 +24,14 @@ Button.propTypes = {
   onClick: PropTypes.func,
   disabled: PropTypes.bool,
   className: PropTypes.string,
+  testId: PropTypes.string,
 };
 
 Button.defaultProps = {
   onClick: () => {},
   disabled: false,
   className: "",
+  testId: "",
 };
 
 export default Button;
