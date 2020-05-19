@@ -1,7 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## My Assumptions
- #### browsers support: 
-      test on chrome only
+ #### Browsers support: 
+      tests on chrome only
+ ## App.js
+ its a container component that responsable for fetching the images from the APi (with getImagesHook) and modify it.
+ the component is also hanlding all the refresh button behoviers.
+ ## App.css
+ the component layout
+ ## Gallery.js
+ its a component that responsable for the gallery display and view modes only, this component know how to work with an array    of images and display it.
+ the Gallery componenet not modify the data (today we display 5 images but if we diced that we want to display and other number of images we just need to pass the images array as a props)
+ 
+ we can use this component to display images form any source that we want 
 ## Available Scripts
 
 In the project directory, you can run:
