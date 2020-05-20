@@ -34,8 +34,8 @@ It's a simple button component the contains the button logic and UI.
 Its a custom hook that fetches the data from the API.
 maybe I should do it more generic and pass the URL and the headers as params, but I am not sure if it's not too much generic
 
-***add error response handling for API call I throw Error to the console. 
-when I get an error response from the API I throw an error to console, the better solution will be to update the state and display a nice design error message  
+### add error response handling for API call.
+When I get an error response from the API I throw an error to the console, the better solution will be to update the state and display a nice design error message.  
 
 
  
