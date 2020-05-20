@@ -42,6 +42,6 @@ When I get an error response from the API I throw an error to the console, the b
 ## Hooks
 It's the first time that I'm using hooks I hope that I use it well.
 
-## Test
+## Tests
 I test the toggle view buttons behavior and that the buttons are rendered.
 I should add a test to check that the images are rendered and that the refresh logic is working as we expected
