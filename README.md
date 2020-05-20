@@ -34,6 +34,9 @@ It's a simple button component the contains the button logic and UI.
 Its a custom hook that fetches the data from the API.
 maybe I should do it more generic and pass the URL and the headers as params, but I am not sure if it's not too much generic
 
+**I should add error response handling (I said to myself that I will do it after everything works well and I forgot about it)**
+
+ 
 ## Hooks
 It's the first time that I'm using hooks I hope that I use it well.
 
