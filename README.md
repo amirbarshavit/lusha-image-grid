@@ -1,19 +1,29 @@
-This  was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## My Assumptions
 
 ## Desgin
 
+<<<<<<< Updated upstream
 1) It's not a pixel-perfect (it's far from it) I saw the UI screenshots to late.
 2) In row view mode, in order to be responsive to screen width, only in 1400px (or bigger ) width the 5 images will display in one row if the screen width is less then 1400px the gallery grid will adjust itself.
+=======
+     1) its not a pixel prefect (its far from it) I saw the UI screenshots to late.
+     2) in row view mode, in order to be responsive to screen width, only in 1400px (or bigger ) width the 5 images will dislpay in one row if the screen width is less then 1400px the gallery grid will adjust itself
+>>>>>>> Stashed changes
 
 ### Browsers support:
 Test on chrome
 
 ## App.js
 
+<<<<<<< Updated upstream
 It's a container component that responsible for fetching the images from the API (with FetchImages hook) and modify it.
 the component is also handling all the refresh button behaviors in order to pass to the gallery component only the images that needed to display.
+=======
+its a container component that responsable for fetching the images from the API (with FetchImages hook) and modify it.
+the component is also hanlding all the refresh button behoviers in order to pass to the gallery component only the images that needed for display.
+>>>>>>> Stashed changes
 
 ## App.css
 
